@@ -1,0 +1,93 @@
+  
+@font-face {
+    font-family: "FiraSans";
+    src: url("https://free.bboxtype.com/embedfonts/?family=FiraSans:500") format("woff");
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    color: #2E2633;
+}
+
+html {
+    background-image: url("./img/subtle.png");
+}
+
+#mainContent {
+    padding: 10px;
+}
+#headInfo header {
+margin: 0;
+line-height: 10px;
+}
+
+#headInfo p {
+    margin: 0;
+    color: #89bdd6;
+    line-height: 1.05;
+    padding-right: 30px;
+}
+
+h1 { 
+    color: #2E2633;
+}
+
+h2, h3, h4 {
+    color: #89bdd6; 
+}
+
+a:link {
+    color: #6d6e41;
+}
+
+a:visited {
+    color: #a9845c;
+}
+
+a:hover {
+    color: #29586c;
+}
+
+#headInfo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+header h5 {
+    line-height: 1.1;
+    color: #89bdd6;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.jobDetails, .formalEducationDetails, .informalDetails, .skills {
+   font-size: 1.1em; 
+   line-height:1.2;
+}
+
+hr {
+    display: block;
+    height: 0.5px;
+    border: 0;
+    border-top: 1px solid #89bdd6;
+    margin: 1em 0;
+    padding: 0;
+}
+
+dl dt {
+    float:left; 
+    margin-right:10px; 
+    padding:5px;  
+    width:100px;
+    color: #29586c; 
+}
+ 
+dl dd { 
+    padding:5px 0;
+    color: #29586c;
+}
+
+    
